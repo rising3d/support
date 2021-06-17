@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.top-navbar {
+  height: 30px;
+  width: 100%;
+  display: flex;
+  background-color: #3a4651;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.flags {
+  margin-left: 10px;
+}
+.user{
+  margin-right: 10px;
+}
+
+.logo-container {
+  display: flex;
+  background-color: #d95381;
+  color: #fff;
+  padding-left: 10px;
+  height: 100px;
+  align-items: center;
+}
+
+.menu-container {
+  background-color: #3a4651;
+  color: #fff;
+  height: 60px;
+  display: flex;
+  align-items: center;
+}
+
+.menu > ul {
+  list-style-type: none;
+  display: inline-flex;
+  margin-left: 10px;
+}
+.menu > ul > li :last-child {
+  margin-right:40px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.landing {
+  background-image: url("../assets/default/images/landing-bg.jpg");
+
+}
+
+h1 {
+  line-height: 1.6;
+  text-align: center;
+  font-size: 40;
+}
+p {
+  line-height: 1.4;
+  text-align: center;
+  font-size: 18;
+  padding-top: 15px;
+}
+
+.check-ticket {
+  border: solid 1px black;
+  display: flex;
+  height: 160px;
+  color: #ddd;
+}
